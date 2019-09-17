@@ -112,6 +112,7 @@ public class Inventory {
 		System.out.println("Transaction date: ");
 		//first comment
 		//second comment
+		//comment 3
 	}
 
 }
