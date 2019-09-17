@@ -110,6 +110,7 @@ public class Inventory {
 		System.out.printf("\nYour HST: %.2f$     ", subTotal * TAX_RATE);
 		System.out.printf("\nYour total: %.2f$   ", subTotal + (subTotal * TAX_RATE));
 		System.out.println("Transaction date: ");
+		//first comment
 	}
 
 }
