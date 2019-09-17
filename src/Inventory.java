@@ -52,15 +52,7 @@ public class Inventory {
 		}
 		return product; 
 	}
-	
-//	//create a method to access elements of inventory objects by giving their index number
-//	public Product getProductByIndex(int index) {
-//		Product product = this.inventory.get(index)
-//		
-//
-//		return product; 
-//	}
-	
+		
 	//create a method to find a product
 	public void findProduct(String serialNumber) {
 		found = false;
@@ -117,6 +109,7 @@ public class Inventory {
 		System.out.printf("Your sub-total %.2f$", subTotal);
 		System.out.printf("\nYour HST: %.2f$     ", subTotal * TAX_RATE);
 		System.out.printf("\nYour total: %.2f$   ", subTotal + (subTotal * TAX_RATE));
+		System.out.println("Transaction date: ");
 	}
 
 }
